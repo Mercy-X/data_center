@@ -21,3 +21,12 @@ data_center以django-ORM管理股票数据。
 * shell直接操作数据
 * 记录交易，方便统计
 
+App
+--
+* **stock**
+    * URL /stock/
+    * 功能
+        * /update_stock_data/ 每日更新股票基础信息，名称，ST等。
+
+
+
