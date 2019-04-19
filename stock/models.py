@@ -74,6 +74,10 @@ class Stock(models.Model):
 
     @property
     def sina_url(self):
+        """
+        Sina股票链接
+        :return:
+        """
         return "http://finance.sina.com.cn/realstock/company/{}/nc.shtml".format(self.query_code.lower())
 
     # # trade part
